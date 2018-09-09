@@ -1,0 +1,14 @@
+$block: 'header';
+
+.#{$block} {
+  background-color: $lucky-point;
+  padding: 1rem;
+
+  .#{$block}__container {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 150px 2fr 1fr;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+}

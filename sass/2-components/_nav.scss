@@ -1,0 +1,28 @@
+$block: 'nav';
+
+.#{$block} {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  .#{$block}__item {
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
+
+  .#{$block}__link {
+    border-radius: 2em;
+    color: $white;
+    padding: 0.5em 1em;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &.#{$block}__link--is-active {
+      background-color: $white;
+      color: $mariner;
+    }
+  }
+}
