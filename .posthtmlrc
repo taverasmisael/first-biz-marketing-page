@@ -1,0 +1,16 @@
+{
+  "plugins": {
+    "posthtml-img-autosize": {
+      "root": "./images",
+      "processEmptySize": true
+    },
+    "posthtml-bem": {
+      "elemPrefix": "__",
+      "modPrefix": "--",
+      "modDlmtr": "-"
+    },
+    "posthtml-alt-always": {},
+    "posthtml-include": {},
+    "posthtml-minifier": {}
+  }
+}

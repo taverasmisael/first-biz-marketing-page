@@ -1,0 +1,1 @@
+Template developed from: [https://www.uplabs.com/posts/first-biz-marketing-page](https://www.uplabs.com/posts/first-biz-marketing-page) all credits to [https://www.uplabs.com/royrt88](https://www.uplabs.com/royrt88)
