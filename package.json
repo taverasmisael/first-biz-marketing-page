@@ -1,19 +1,25 @@
 {
   "name": "corportate-template",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A basic corporate template developed froma uplabs post",
   "main": "index.html",
   "author": "taverasmisael <macrot29@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "rm -rf ./dist/ && parcel build index.html",
+    "watch": "parcel watch index.html"
+  },
   "devDependencies": {
-    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
     "autoprefixer": "^9.1.5",
     "babel-eslint": "^9.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^5.5.0",
     "eslint-config-google": "^0.10.0",
     "eslint-plugin-import": "^2.14.0",
+    "node-sass": "^4.9.3",
     "parcel-bundler": "^1.9.7",
     "posthtml-alt-always": "^1.0.1",
     "posthtml-bem": "^0.2.2",
