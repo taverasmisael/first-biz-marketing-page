@@ -29,5 +29,8 @@
     "posthtml-minifier": "^0.1.0",
     "stylelint-config-sass-guidelines": "^5.2.0",
     "stylelint-selector-bem-pattern": "^2.0.0"
+  },
+  "dependencies": {
+    "minireset.css": "^0.0.3"
   }
 }
